@@ -1,0 +1,47 @@
+<!--<ul>
+  <li><a href="/rock">Play Rock</a></li>
+  <li><a href="/paper">Play Paper</a></li>
+  <li><a href="/scissors">Play Scissors</a></li>
+</ul>
+
+<h1>
+<p>We played <%#= @user_move %>!</p>
+<p>They played <%#= @random_move %>!</p>
+<p><%#= @outcome %></p>
+</h1>
+
+<a href="/">Rules</a>-->
+
+<div>
+    <a href="/rock">
+      Play Rock
+    </a>
+  </div>
+
+  <div>
+    <a href="/paper">
+      Play Paper
+    </a>
+  </div>
+
+  <div>
+    <a href="/scissors">
+      Play Scissors
+    </a>
+  </div>
+
+  <h2>
+    We played rock!
+  </h2>
+
+  <h2>
+   They played <%= @random_move %>!
+  </h2>
+
+  <h2>
+    <%= @outcome %>
+  </h2>
+
+  <a href="/">
+    Rules
+  </a>
